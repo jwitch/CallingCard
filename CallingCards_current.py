@@ -2,16 +2,16 @@
 
 ##########################################################
 #Project: Calling_Cards
-#Data:2018/01/01
-#Author: JNW, modified for python 3
+#Date:2018/01/01
+#Author: Zontai Qi with modifications by JNW, modified for python 3
 ##########################################################
 
 '''
 Input: working directory, csv with exp+ref pairs
 Wrapper for Calling card seq pipeline
-Output: text file of 
+Output: text file of insertion cluster with info associated with the cluster including # inserts and stats compared to reference
 *cutoff is used for filter out the independent insertions based on their own count which is the 3rd column of the input dataset
-*pwd is the directory that has Reference.txt and Experimental.txt. A21_gnashy_files/Input/
+*pwd is the directory that has Reference.txt and Experimental.txt. example: A21_gnashy_files/Input/
 '''
 import argparse
 import numpy as np
