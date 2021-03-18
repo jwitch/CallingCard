@@ -2,8 +2,8 @@
 
 ##########################################################
 #Project: Calling_Cards
-#Data:2018/01/01
-#Author: JNW, modified for python 3
+#Date:2018/01/01
+#Author: Zontai Qi, Mitra Lab, JNW modified for python 3
 ##########################################################
 
 '''
