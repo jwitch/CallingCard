@@ -2,7 +2,7 @@
 make_gnashyfile.py
 written 6/30/16 by RDM
 usage
-modified 7/8/16 to look for TTAA in reference
+modified 7/8/16 by JNW to look for TTAA in reference
 make_gnashyfile -b <barcode filename> -g <genome>  mm or hs default = mm -p <output path>
 
 required
